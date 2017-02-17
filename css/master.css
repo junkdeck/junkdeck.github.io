@@ -1,0 +1,141 @@
+/**{
+    margin:0 !important;
+    padding:0 !important;
+}*/
+
+html{
+    height:100%;
+}
+
+body{
+    background: linear-gradient(180deg,#f6eadf,#e3e1e8);
+    background-attachment: fixed;
+    margin:20px 0 60px 0;
+    padding-top:60px;
+
+    color:#483066;
+}
+
+body p{
+    color:#786e8e;
+}
+
+a{
+    color:#483066;
+}
+a:hover, a:active, a:focus{
+    text-decoration: none;
+    color:#483066;
+}
+
+.btn:hover, .btn:active, .btn:focus{
+    color:#382b49;
+}
+
+.small-dick{
+    padding:0;
+}
+
+.page-top-div{
+    visibility: hidden;
+    display: none;
+}
+
+.container-fluid{
+    width:80%;
+    background: #f1eee5;
+
+    border-radius:0 0 20px 20px;
+    padding:0 0 10px 0;
+}
+
+.page-header{
+    background: #f7e7c2;
+    margin-top: 0 !important;
+    padding-bottom:0 !important;
+    border-radius: 0;
+
+    width:80%;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.page-header .btn{
+    width:100%;
+    height:auto;
+}
+
+.titletexter{
+    padding-bottom:10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.row{
+    margin:0;
+    padding: 0;
+}
+
+.navvo{
+    top:inherit;
+    transform: translateY(35%);
+}
+
+.navvo .col-md-4 .btn-block{
+    height:50px;
+}
+
+.letspac{
+    letter-spacing:10px;
+}
+
+#portfolio .container .row .col-md-4{
+    /*width:100%;*/
+}
+
+.port-placeholder{
+    width:auto;
+    height:250px;
+    box-shadow: 2px 2px 5px;
+    background: #fffc;
+}
+
+.port-spacer{
+    line-height:220%;
+}
+.pcent{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+form .row .col-md-4:first-child{
+    padding-right:0;
+}
+form .row .col-md-4:last-child{
+    padding-left:0;
+}
+
+.icon-smalldick{
+    height:100%;
+    transform: translateY(50%);
+}
+
+.titledicker{
+    height:100%;
+    transform: translateY(50%);
+}
+
+.builty{
+    font-size: 12px;
+}
+
+*[id]:before {
+  display: block;
+  content: " ";
+  margin-top: -90px;
+  height: 90px;
+  visibility: hidden;
+}
