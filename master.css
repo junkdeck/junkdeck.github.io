@@ -42,7 +42,9 @@ html, body {
 .header {
   color: #a054ba;
   height: 35%;
-  width: 100%; }
+  width: 100%;
+  z-index: 5;
+  position: fixed; }
   .header h1 {
     font-size: 800%;
     letter-spacing: 20pt; }
@@ -73,5 +75,21 @@ html, body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end; }
+
+.bg_circle {
+  border-radius: 100%;
+  position: fixed;
+  z-index: 6;
+  width: 400pt;
+  height: 400pt;
+  background: #a054ba;
+  overflow: auto;
+  clip-path: circle(200pt at center); }
+  .bg_circle .header {
+    width: auto;
+    color: #bb7ee6; }
+    .bg_circle .header hr {
+      background: #bb7ee6;
+      width: 100%; }
 
 /*# sourceMappingURL=master.css.map */
