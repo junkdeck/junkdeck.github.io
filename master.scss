@@ -1,5 +1,5 @@
-$primary_color: #8154ba;
-$secondary_color: #9d7fe6;
+$primary_color: #a054ba;
+$secondary_color: #bb7ee6;
 
 *{
 	margin:0;
@@ -54,6 +54,14 @@ html,body{
 
 .header h1{
 	font-size: 800%;
+	letter-spacing: 25px;
+}
+
+.header h4{
+	font-weight: normal;
+	font-size: 175%;
+	// font-style: oblique;
+	text-transform: uppercase;
 }
 
 .flex-center{
