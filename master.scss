@@ -1,5 +1,5 @@
-$primary_color: #15cca0;
-$secondary_color: #06f4bb;
+$primary_color: #8154ba;
+$secondary_color: #9d7fe6;
 
 *{
 	margin:0;
@@ -48,7 +48,12 @@ html,body{
 }
 
 .header{
+	color: $primary_color;
+	height: 50%;
+}
 
+.header h1{
+	font-size: 800%;
 }
 
 .flex-center{
